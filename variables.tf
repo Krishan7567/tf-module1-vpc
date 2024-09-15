@@ -6,6 +6,10 @@ variable "PRIVATE_SUBNET_CIDR" {}
 variable "AZ" {}
 */
 
+variable "VPC_CIDR" {
+    type = string
+}
+
 variable "ENV" {
   type = string
 }
